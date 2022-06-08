@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+body {
+    background-color: #1b1b1b;
+}
+.form-container input{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.btn {
+font-weight: bold;
+  color: #fff;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+ border: none;
+  outline: none;
+  background-color: #589430;
+  cursor: pointer;
+  height: 40px;
+
+}
+
+.list {
+display: block;
+background-color: gray;
+color: white;
+width: 500px;
+margin: 0 auto;
+margin-top: 30px;
+list-style-type:none;
+padding: 20px;
+font-size:20px;
+border-radius: 10px;
+}
+
+.remove-btn {
+    padding:5px;
+    background-color:red;
+    color:#fcfcfc;
+    height:50px;
+    width:50px;
+    margin-left: 5rem;
+    border-radius: 50%;
+    outline:0;
+    text-decoration: none;
+    font-size:20px;
+    cursor: pointer;
+}
